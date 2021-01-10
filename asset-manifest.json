@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/lovebot/static/css/main.7eb1ed6b.chunk.css",
-    "main.js": "/lovebot/static/js/main.ad8489c0.chunk.js",
-    "main.js.map": "/lovebot/static/js/main.ad8489c0.chunk.js.map",
+    "main.css": "/lovebot/static/css/main.0975ce5e.chunk.css",
+    "main.js": "/lovebot/static/js/main.46e7bf50.chunk.js",
+    "main.js.map": "/lovebot/static/js/main.46e7bf50.chunk.js.map",
     "runtime-main.js": "/lovebot/static/js/runtime-main.c01f9d84.js",
     "runtime-main.js.map": "/lovebot/static/js/runtime-main.c01f9d84.js.map",
-    "static/js/2.09d7d4e5.chunk.js": "/lovebot/static/js/2.09d7d4e5.chunk.js",
-    "static/js/2.09d7d4e5.chunk.js.map": "/lovebot/static/js/2.09d7d4e5.chunk.js.map",
+    "static/js/2.3483863f.chunk.js": "/lovebot/static/js/2.3483863f.chunk.js",
+    "static/js/2.3483863f.chunk.js.map": "/lovebot/static/js/2.3483863f.chunk.js.map",
     "index.html": "/lovebot/index.html",
-    "static/css/main.7eb1ed6b.chunk.css.map": "/lovebot/static/css/main.7eb1ed6b.chunk.css.map",
-    "static/js/2.09d7d4e5.chunk.js.LICENSE.txt": "/lovebot/static/js/2.09d7d4e5.chunk.js.LICENSE.txt"
+    "static/css/main.0975ce5e.chunk.css.map": "/lovebot/static/css/main.0975ce5e.chunk.css.map",
+    "static/js/2.3483863f.chunk.js.LICENSE.txt": "/lovebot/static/js/2.3483863f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c01f9d84.js",
-    "static/js/2.09d7d4e5.chunk.js",
-    "static/css/main.7eb1ed6b.chunk.css",
-    "static/js/main.ad8489c0.chunk.js"
+    "static/js/2.3483863f.chunk.js",
+    "static/css/main.0975ce5e.chunk.css",
+    "static/js/main.46e7bf50.chunk.js"
   ]
 }
