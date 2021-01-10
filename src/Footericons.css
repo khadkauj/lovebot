@@ -1,0 +1,49 @@
+.footericon{
+    position: absolute;
+    /* the position here helped to get the icon to bottom */
+    bottom: 0vh;
+    display: flex;
+    width: 100%;
+    /* width here helped alot */
+    /* background-color: red; */
+    justify-content: space-evenly;
+    border: 1px solid lightgray;
+    object-fit: contain;
+    background-color: white;
+    align-items: center;
+}
+
+.footericon_icon_one{
+    height: 10vh;
+    width: 10vw;
+    object-fit: contain;
+    
+}
+.footericon_icon_two{
+    height: 10vh;
+    width: 10vw;
+    object-fit: contain;
+    
+}
+.footericon_icon_three{
+    height: 10vh;
+    width: 10vw;
+    object-fit: contain;
+    
+}
+
+.footericon_icon_one.MuiIconButton-root{
+    color: #f5b748;
+   
+
+}
+
+.footericon_icon_two.MuiIconButton-root{
+    color:#ec5e6f;
+
+}
+
+.footericon_icon_three.MuiIconButton-root{
+    color: #62b4f9 ;
+
+}
