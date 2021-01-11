@@ -44,11 +44,14 @@ function App() {
     <div className="app">
 
 
-    {!uid ? <UserLogin /> 
-                    :
+    
     
                   <Router>
                   
+
+                  {!uid ? <UserLogin /> 
+                    :
+
                   <Switch>
 
 
@@ -70,9 +73,10 @@ function App() {
 
                   
                   </Switch>
+}
                   </Router>
 
-}
+
 
 
       

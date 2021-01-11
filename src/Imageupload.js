@@ -47,7 +47,50 @@ const Imageupload = () => {
 
                     //   this name is exactly same as uid of user
                     // it can be helpful in navigatin images of user
-                    // console.log('image name', imageRef.getDownloadURL())               
+                    console.log('image name', imageRef.getDownloadURL())
+                    console.log('image name', imageRef.getDownloadURL())                 
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL()) 
+                     console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+
+                    console.log('image name', imageRef.getDownloadURL())  
+
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
+                    console.log('image name', imageRef.getDownloadURL())  
                     // console.log(photourl_incase_image_not_supplied)
 
                     if (imageRef.name === uid  ) {

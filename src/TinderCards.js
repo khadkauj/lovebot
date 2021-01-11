@@ -38,7 +38,7 @@ const TinderCards = () => {
                 {people.map(person => 
                    
                     (
-                        <TinderCard  key={person.name} preventSwipe={['', '']} className='swipe'  >
+                        <TinderCard  key={person.name}  className='swipe'  >
                             <div style={{ backgroundImage: `url(${person.picurl})` }} className='card'>
                                 <h3>{person.name}</h3>
                             </div>
