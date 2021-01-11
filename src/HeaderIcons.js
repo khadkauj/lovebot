@@ -5,8 +5,10 @@ import { IconButton } from '@material-ui/core';
 import './HeaderIcon.css'
 import { Link } from "react-router-dom";
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
+import CancelPresentationIcon from '@material-ui/icons/CancelPresentation';
 import { useDispatch } from 'react-redux';
 import { Sign_out } from './features/user/userSlice';
+
 
 const HeaderIcons = ({backarrow_prop}) => {
 
@@ -29,10 +31,10 @@ const HeaderIcons = ({backarrow_prop}) => {
 
            {backarrow_prop ?
                     // <Link to ='/'>   </Link>
-               ( <Link to ='/after_signin_and_imageupload'><IconButton className="header__icon"><ArrowBackIosIcon fontSize='large'></ArrowBackIosIcon> </IconButton></Link>):
-               (<Link to ='/'><IconButton className="header__icon"><AccountCircleIcon onClick={sign_out} fontSize='large' /></IconButton></Link>)}
+               ( <Link to ='/'><IconButton className="header__icon"><ArrowBackIosIcon fontSize='large'></ArrowBackIosIcon> </IconButton></Link>):
+               (<Link to ='/'><IconButton onClick={sign_out} className="header__icon"><CancelPresentationIcon  fontSize='large' /></IconButton></Link>)}
        
-                <Link to ='/after_signin_and_imageupload'><IconButton className="header__icon"><img className='header_icon_img' src='https://dbdzm869oupei.cloudfront.net/img/sticker/preview/4788.png' alt='' /></IconButton> </Link>
+                <Link to ='/'><IconButton className="header__icon"><img className='header_icon_img' src='https://dbdzm869oupei.cloudfront.net/img/sticker/preview/4788.png' alt='' /></IconButton> </Link>
                 {/* // <Link to='/chats'> </Link> */}
                 <Link to='/chats'><IconButton className="header__icon" ><ChatBubbleIcon fontSize='large' /></IconButton></Link>
         </div>

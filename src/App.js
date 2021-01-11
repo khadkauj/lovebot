@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 // import { user } from './features/user/UserLogin';
 import './App.css';
 import HeaderIcons from './HeaderIcons'
@@ -11,11 +11,11 @@ import {
   Link
 } from "react-router-dom";
 import Chatboxes from './Chatboxes';
-import { useSelector } from 'react-redux';
-import { selectUser_email, selectUser_name, selectUser_photourl, selectUser_uid } from './features/user/userSlice';
+import { useDispatch, useSelector } from 'react-redux';
+import { selectUser_email, selectUser_name, selectUser_photourl, selectUser_uid, Sign_in, Sign_out } from './features/user/userSlice';
 import UserLogin from './features/user/UserLogin';
 import Imageupload from './Imageupload';
-import { database } from './firebase';
+import { auth, database } from './firebase';
 
 
 
@@ -25,19 +25,26 @@ function App() {
   // const name = useSelector(selectUser_name)
   // const photourl = useSelector(selectUser_photourl)
   // const email = useSelector(selectUser_email)
-  
-  console.log('uid', uid)
-  // console.log('url', photourl)
+ 
+  const dispatch = useDispatch()
 
-  // if (uid) {
-  //   database.collection('people_collection').doc(uid).set({
-  //     firebase_insidefield_uid: uid,
-  //     people_name: name,
-  //     people_photo_url:photourl,
-  //     people_email: email})
-  
-  // }
-
+      useEffect(() => {
+      
+                  auth.onAuthStateChanged(authUser => {
+                    if (authUser) {
+                      dispatch(Sign_in({
+                        uid_google: authUser.uid,
+                        name_google: authUser.displayName,
+                        photourl_google: authUser.photoURL,
+                        email_google: authUser.email
+                      }))
+                    } else {
+                      dispatch(Sign_out())
+                    }
+                  }
+                
+                  )
+      }, [])
 
 
   return (
@@ -61,15 +68,17 @@ function App() {
                     <Chatboxes />
                   </Route>
 
-                  <Route path='/after_signin_and_imageupload'>
+                  <Route path='/imageupload'>
+                      <Imageupload />
+                  </Route>
+
+                  <Route path='/'>
                       <HeaderIcons />
                       <TinderCards />
                       <Footericons />       
                   </Route>
 
-                  <Route path='/'>
-                      <Imageupload />
-                  </Route>
+            
 
                   
                   </Switch>

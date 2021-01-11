@@ -12,7 +12,7 @@ export const userSlice = createSlice({
     // and initial value
     user_uid: null,
     user_name: null,
-    user_photourl: '',
+    user_photourl: null,
     user_email: null,
 
   },
@@ -37,7 +37,7 @@ export const userSlice = createSlice({
     Sign_out: state => {
       state.user_uid = null;
       state.user_name = null;
-      state.user_photourl = '';
+      state.user_photourl = null;
       state.user_email = null;
 
     },

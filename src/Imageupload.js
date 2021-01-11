@@ -134,7 +134,7 @@ const Imageupload = () => {
 
             <div className='imageupload__foot'>
                 {/* <p className='imageupload__foot__P'>Don't want to upload or have already uploaded,</p><h4> click </h4> */}
-                <Button className='imageupload__foot_button' variant="contained" fontSize='large' onClick={skip_and_go} > <Link to='/after_signin_and_imageupload' >SKip</Link></Button>
+                <Button className='imageupload__foot_button' variant="contained" fontSize='large' onClick={skip_and_go} > <Link to='/' >SKip</Link></Button>
             </div>
             
 
@@ -144,7 +144,7 @@ const Imageupload = () => {
             
             <div className='imageupload__inputbuttons'>
                 <input  onChange={e => setimage(e.target.files[0])}  type="file" placeholder='Choose your image' />
-                    <Button variant="contained"  onClick={send_image_to_firestore} ><Link to='/after_signin_and_imageupload' >Submit</Link></Button>
+                    <Button variant="contained"  onClick={send_image_to_firestore} ><Link to='/' >Submit</Link></Button>
             </div>
            
            
