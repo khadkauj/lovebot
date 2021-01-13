@@ -1,9 +1,9 @@
+You can see the live demo in https://khadkauj.github.io/lovebot/
+
+ReactJS, Redux, ReactRouter,other ReactRouter libraries, Firebase, Material UI, Tachyons, HTML5/CSS3 and so on...
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
-
-You can view this in https://khadkauj.github.io/lovebot/
-
-
-
 
 ## Available Scripts
 
